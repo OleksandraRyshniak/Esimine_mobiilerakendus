@@ -43,7 +43,60 @@
                     Clicked="ResetBtn_Clicked"
                 />
             </HorizontalStackLayout>
+            <VerticalStackLayout
+                HeightRequest="200"
+                VerticalOptions="End"
+                Padding="50,51,50, 50">
+                <Image
+                x:Name="pilt"
+                Source="pilt.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a submarine number ten"
+                />
+            </VerticalStackLayout>
 
+            <HorizontalStackLayout
+                Spacing="10"
+                HorizontalOptions="Center">
+                <Button
+                    x:Name="Upbtn"
+                    Text="Üles" 
+                    BackgroundColor="Coral"
+                    Clicked="Upbtn_Clicked"
+                />
+                <Button
+                    x:Name="Downbtn"
+                    Text="Alla" 
+                    BackgroundColor="Coral"
+                    Clicked="Downbtn_Clicked"
+                />
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                            Spacing="10">
+                <Button
+                    x:Name="Opacity"
+                    Text="Läbipaistvus pilt" 
+                    BackgroundColor="DarkBlue"
+                    Clicked="Opacity_Clicked"
+                    WidthRequest="100"
+                />
+                <Button
+                    x:Name="Scale"
+                    Text="Suurus pilt" 
+                    BackgroundColor="DarkBlue"
+                    Clicked="Scale_Clicked"
+                     WidthRequest="100"
+                />
+                <Button
+                    x:Name="Cornerrad"
+                    Text="Ümarda nupud" 
+                    BackgroundColor="DarkBlue"
+                    Clicked="Cornerrad_Clicked"
+                     WidthRequest="100"
+                />
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
